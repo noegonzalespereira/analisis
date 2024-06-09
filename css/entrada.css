@@ -1,0 +1,14 @@
+.card-header{
+    background-image: url(imagen/descarga.jfif);
+    color:rgb(228, 222, 222)
+}
+.card-info{
+    background-color: rgb(59, 17, 13);
+}
+.card-body{
+    color:aliceblue;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 150px;
+}

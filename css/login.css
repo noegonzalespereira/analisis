@@ -1,0 +1,9 @@
+.iniciarSesion{
+  width: 500px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(39, 4, 4);
+}

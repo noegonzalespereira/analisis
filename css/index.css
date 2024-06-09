@@ -1,0 +1,89 @@
+.container-fluid{
+    background-color: rgb(165,125,66);
+    
+}
+.nav-link{
+    color: rgb(221,203,153);
+}
+body{
+    background-image: url(/imagen/18.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.descripcion{
+    margin-left: 70%;
+    margin-top: 600px;
+  
+    
+}
+.concepto{
+    margin-top: -800px;
+}
+img{
+    width: 5%;
+    height: 5%;
+}
+.descrip img{
+    width: 750px;
+    height: 510px;
+}
+.descrip{
+    margin-left: -100px;
+}
+.sobreNosotros{
+    margin-left: 70%;
+    margin-top: 65px;
+}
+
+iframe {
+    border: none;
+    max-width: 600px;
+    height: 170px;
+}
+.tresD{
+    margin-top: -1000px;
+}
+#carruselVideos{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+}
+.imagen {
+    margin-left: -60px;
+    margin-top: -0.1px;
+}
+.imagen video{
+    width: 500px;
+    height: 200px;
+}
+h6{
+    text-align: center;
+    margin-left: 30px;
+    color:rgb(161, 160, 158);
+   
+}
+#carruselImagenes{
+    margin-top: -180px;
+    margin-left:580px ;
+    width: 600px;
+    
+    max-width: 800px;
+    height: 500px;
+}
+#carruselImagenes img{
+    width: 600px;
+    height: 500px;
+}
+.sobreNosotros{
+    margin-top: -400px;
+    margin-left:-0.7px;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
