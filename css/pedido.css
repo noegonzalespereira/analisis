@@ -1,0 +1,12 @@
+body{
+    background-image: url(/imagen/18.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid{
+    background-color: rgb(165,125,66);
+    
+}
+.nav-link{
+    color: rgb(221,203,153);
+}

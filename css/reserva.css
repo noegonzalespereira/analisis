@@ -23,7 +23,7 @@
     margin-top: 10px;
 }
 body{
-    background-image: url(/imagen/18.webp) ;
+    background-image: url(../imagen/18.webp) ;
     background-repeat: no-repeat;
     background-size: cover;
 }

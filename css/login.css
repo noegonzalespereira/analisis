@@ -1,9 +1,90 @@
-.iniciarSesion{
-  width: 500px;
-  height: 300px;
-  border: 3px solid black;
-  border-radius: 40px;
+
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contenedor-formularios {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: antiquewhite;
-  background-color: rgb(39, 4, 4);
+}
+
+.formulario {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.formulario h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Animación de carga (opcional) */
+
+.animacion-carga {
+  display: none; /* Ocultar inicialmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animacion-carga .circulo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  border-top: 10px solid #007bff;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animacion-carga p {
+  margin-top: 10px;
 }
