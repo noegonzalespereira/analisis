@@ -27,7 +27,7 @@
 <body style="background-image: url(imagen/18.webp);">
 <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <img src="imagen/logoRestaurante.jpeg" alt="Logo" width="5%_" height="5%" class="d-inline-block align-text-top">
+      <img src="imagen/logoRestaurante.jpeg" alt="Logo" width="5%" height="5%" class="d-inline-block align-text-top">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
